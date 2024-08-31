@@ -11,8 +11,6 @@ function OTPVerification() {
   const navigate = useNavigate();
 
   const handleVerify = () => {
-    // Simulate verification process
-    // If OTP is correct, navigate to welcome page
     navigate('/dashbord');
   };
 
@@ -22,7 +20,7 @@ function OTPVerification() {
         <img src={logo} className="blox-logo" alt="Nuqi Logo" /> {/* Added alt attribute */}
         <h2>OTP VERIFICATION</h2>
         <p>Enter the verification code we just sent on your phone number.</p>
-        <h1>+91 1234567890</h1>
+      
         <div className="otp-input">
           <input type="text" maxLength="1" />
           <input type="text" maxLength="1" />
