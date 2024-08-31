@@ -1,0 +1,125 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #251c47;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #251c47;
+
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.blox-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.phone-input {
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+.phone-input select,
+.phone-input input {
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+.login-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  background-color:#e6ca63;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #555;
+  border: 0.2px solid #edca06;
+
+}
+
+.google {
+  background-color: #666;
+  border: 0.2px solid #edca06;
+
+}
+
+.apple {
+  background-color: #666;
+  border: 0.2px solid #edca06;
+
+}
+
+.password {
+  background-color: #666;
+  border: 0.2px solid #edca06;
+
+}
+
+.send-otp {
+  background-color: #e6ca63;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+}
+
+.send-otp:hover {
+  background-color: #e6ca63;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+p a {
+  color: #899f76;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
