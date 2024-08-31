@@ -13,7 +13,7 @@ function OTPVerification() {
   const handleVerify = () => {
     // Simulate verification process
     // If OTP is correct, navigate to welcome page
-    navigate('/Dashbord');
+    navigate('/dashbord');
   };
 
   return (
